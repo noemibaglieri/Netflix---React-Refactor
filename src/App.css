@@ -40,6 +40,12 @@ footer {
   height: 55px;
 }
 
+.PosterImage {
+  /* width: 340px; */
+  height: 400px;
+  object-fit: cover;
+}
+
 #dropdown-item-button {
   background-color: #221f1f;
   border-radius: 0;

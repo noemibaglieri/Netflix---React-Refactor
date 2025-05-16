@@ -16,8 +16,10 @@ function App() {
             <Dropdown.Item as="button">Drama</Dropdown.Item>
             <Dropdown.Item as="button">Thriller</Dropdown.Item>
           </DropdownButton>
-          <ShowsList />
         </div>
+        <ShowsList title="Trending Now" searchQuery="Harry Potter" />Z
+        <ShowsList title="Watch it Again" searchQuery="Kiss" />
+        <ShowsList title="New Releases" searchQuery="Cat" />
       </Container>
     </>
   );

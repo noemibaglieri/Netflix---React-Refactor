@@ -6,9 +6,7 @@ const TopBar = function () {
     <Navbar expand="lg" className="EpiflixNavbar bg-dark" data-bs-theme="dark">
       <Container fluid>
         <Navbar.Brand href="#">
-          <a href="#">
-            <img className="EpiflixLogo" src="./assets/logo.png" alt="Netflix Logo" />
-          </a>
+          <img className="EpiflixLogo" src="./assets/logo.png" alt="Netflix Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
