@@ -29,15 +29,13 @@ class ShowsList extends Component {
     return (
       <>
         <h4>{this.props.title}</h4>
-        <Row xs={1} sm={2} lg={4} xl={6}>
+        <Row xs={1} sm={2} lg={4} xl={6} className="mb-4">
           {searchMovies &&
-            searchMovies.map((movie) => {
+            searchMovies.slice(0, 6).map((movie) => {
               return (
-                <>
-                  <Col className="mb-2 text-center px-1">
-                    <img className="PosterImage" fluid="true" src={movie.Poster} alt={"Poster di " + movie.Title} />
-                  </Col>
-                </>
+                <Col className="mb-2 text-center px-1" key={movie.imdbID}>
+                  <img className="PosterImage" fluid="true" src={movie.Poster} alt={"Poster di " + movie.Title} />
+                </Col>
               );
             })}
         </Row>
