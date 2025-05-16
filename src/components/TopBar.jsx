@@ -11,11 +11,13 @@ const TopBar = function () {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="fw-bold me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">TV Shows</Nav.Link>
-            <Nav.Link href="#link">Movies</Nav.Link>
-            <Nav.Link href="#link">Recently Added</Nav.Link>
-            <Nav.Link href="#link">My List</Nav.Link>
+            <Nav.Link href="#home" className="active">
+              Home
+            </Nav.Link>
+            <Nav.Link href="#">TV Shows</Nav.Link>
+            <Nav.Link href="#">Movies</Nav.Link>
+            <Nav.Link href="#">Recently Added</Nav.Link>
+            <Nav.Link href="#">My List</Nav.Link>
           </Nav>
           <div className="d-flex align-items-center gap-3">
             <Search className="icons" />

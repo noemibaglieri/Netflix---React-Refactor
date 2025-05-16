@@ -19,8 +19,8 @@ function App() {
           </DropdownButton>
         </div>
         <ShowsList title="Trending Now" searchQuery="Harry Potter" />
-        <ShowsList title="Watch it Again" searchQuery="Kiss" />
-        <ShowsList title="New Releases" searchQuery="Cat" />
+        <ShowsList title="Watch it Again" searchQuery="Marvel" />
+        <ShowsList title="New Releases" searchQuery="Star Wars" />
       </Container>
       <BottomFooter />
     </>
